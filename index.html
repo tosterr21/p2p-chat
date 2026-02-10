@@ -36,7 +36,7 @@
         // Инициализация PeerJS с публичным сервером
         function initPeer() {
             peer = new Peer({
-                host: '0.peerjs.com',
+                host: 'peerjs-server.herokuapp.com',
                 port: 443,
                 secure: true,
                 config: {
@@ -121,4 +121,5 @@
         window.onload = initPeer;
     </script>
 </body>
+
 </html>
